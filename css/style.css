@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Unbounded';
+    background: #131524;
+    color: #fff;
+    overflow: hidden;
+  }
+
+.main {
+    margin: 0 auto;
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.player {
+    content: '';
+    background-color: #363147;
+    text-align: center;
+    font-family: FontAwesome;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    left: 48%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s ease-in;
+    border-spacing: 0;
+  }
+  
+.player td {
+    width: 72px;
+}
+
+audio {
+    visibility: hidden;
+}
+  
+.info-player {
+    max-width: 500px;
+    width: 100%;
+}
+
+.info-player img {
+    width: 100%;
+}
+
+.info-player h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+button{
+    width: 80px;
+    
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 0 0 115px;
+    
+    border: none;
+    outline: none;
+    
+    fill: rgba(255,255,255,0.9);
+    background-color: #1252B3;
+    
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    cursor: pointer;
+  }
+  
+  
+
+.playlists {
+    max-width: 935px;    
+    width: 100%;
+}
+
+.playlists .h3play {
+    margin-bottom: 20px;
+}
+
+.music {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.info-music {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inner-music :hover{
+    background-color: #363147;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.info-artist {
+    align-items: center;
+}
+
+
+.inner-music img {
+    width: 70px;
+}

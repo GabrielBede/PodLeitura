@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| PodLeitura</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+    <div class="info-player">
+        <img src="./img/PodLeitura.png" alt="">
+        <div class="info">
+            <h3>10 histórias para tentar entender um mundo caótico</h3>
+            <p>PodLeitura</p>
+        
+            <div class="play">
+                <audio preload="auto" id="audio" controls>
+                    <source src="areyoubored.mp3">
+                </audio>
+
+                <button id="play" onclick="togglePlayPause()">
+                    <svg id='play-svg-1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>
+                    <path 					d='M11,8 L26,16 11,24 11,8'>
+                        <animate attributeName='d' fill='freeze' dur='0.1s'
+                                calc-mode='spline' keySplines='0.19 1 0.22 1'/>
+                    </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="playlists">
+        <h3 class="h3play">Playlists</h3>
+        <div class="music">
+            <div class="inner-music">
+                <div class="info-music">
+                    <p>01</p>
+                    <img src="./img/IniquidadePodcast.png" alt="">
+                        <div class="info-artist">
+                            <h3>10 histórias para ten...</h3>
+                            <p>Iniquidade Podcast</p>
+                        </div>   
+                    <p>10:59</p>
+                    <p>♡ 23K</p>
+                    <p>|</p>
+                    <p>▶ 19.5K</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="music">
+                <div class="inner-music">
+                    <div class="info-music">
+                        <p>02</p>
+                        <img src="./img/Podpah.png" alt="">
+                            <div class="info-artist">
+                                <h3>Ruth e Jamil – Podpah </h3>
+                                <p>Podpah</p>
+                            </div>   
+                        <p>1:07:51</p>
+                        <p>♡ 4K</p>
+                        <p>|</p>
+                        <p>▶ 56.9K</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music">
+                <div class="inner-music">
+                    <div class="info-music">
+                        <p>03</p>
+                        <img src="./img/QuartaParede.png" alt="">
+                            <div class="info-artist">
+                                <h3>Papo do Avesso – Jamil</h3>
+                                <p>Quarta Parede</p>
+                            </div>   
+                        <p>08:33</p>
+                        <p>♡ 9K</p>
+                        <p>|</p>
+                        <p>▶ 47.2K</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music">
+                <div class="inner-music">
+                    <div class="info-music">
+                        <p>04</p>
+                        <img src="./img/EditoraSextante.png" alt="">
+                            <div class="info-artist">
+                                <h3>Audiolivro (Amostra) ... </h3>
+                                <p>Editora Sextante</p>
+                            </div>   
+                        <p>53:37</p>
+                        <p>♡ 7K</p>
+                        <p>|</p>
+                        <p>▶ 24.8K</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music">
+                <div class="inner-music">
+                    <div class="info-music">
+                        <p>05</p>
+                        <img src="./img/RuthManus.png" alt="">
+                            <div class="info-artist">
+                                <h3>Vale a pena LER de no...</h3>
+                                <p>Ruth Manus</p>
+                            </div>   
+                        <p>12:34</p>
+                        <p>♡ 10K</p>
+                        <p>|</p>
+                        <p>▶ 36.1K</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
